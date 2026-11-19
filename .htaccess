@@ -1,0 +1,10 @@
+SetEnv NEXOMESSAGE_VAPID_PUBLIC_KEY "COLE_A_PUBLIC_KEY_AQUI"
+SetEnv NEXOMESSAGE_VAPID_PRIVATE_KEY "COLE_A_PRIVATE_KEY_AQUI"
+SetEnv NEXOMESSAGE_VAPID_SUBJECT "mailto:seu-email@dominio.com"
+
+# Revalidate the page, blog sources and worker after publishing updates.
+<IfModule mod_headers.c>
+  <FilesMatch "\.(html|json|md|js)$">
+    Header set Cache-Control "no-cache, max-age=0, must-revalidate"
+  </FilesMatch>
+</IfModule>

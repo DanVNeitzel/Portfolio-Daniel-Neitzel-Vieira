@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Currículo Daniel Neitzel Vieira</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      color: #333;
+      background: transparent;
+    }
+
+    .container {
+      display: flex;
+      width: 1024px;
+      max-width: 1024px;
+      min-height: 1024px;
+      margin: 40px auto;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .sidebar {
+      width: 320px;
+      background: #1f3a57;
+      color: #fff;
+      padding: 30px 0;
+    }
+
+    .sidebar header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .sidebar header h1 {
+      font-size: 1.8em;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+    .sidebar header p {
+      margin-top: 6px;
+      font-size: 0.9em;
+      color: #a1b2c3;
+    }
+
+    .sidebar .section h2 {
+      font-size: 1.1em;
+      margin-bottom: 12px;
+      background: #39b98a;
+      padding: 6px 20px;
+    }
+
+    .sidebar a {
+      font-size: 0.9em;
+      display: block;
+      padding: 3px 0 3px 0;
+      color: #54b9d9;
+      text-decoration: underline;
+    }
+
+    .sidebar .skills li {
+      list-style: none;
+      margin-bottom: 18px;
+      font-size: 0.9em;
+    }
+
+    .main {
+      flex: 1;
+      background: #fff;
+      padding: 30px;
+    }
+
+    .main .summary {
+      margin-bottom: 30px;
+      line-height: 1.6;
+      font-size: 0.95em;
+      text-align: justify;
+    }
+
+    .main h2 {
+      color: #1f3a57;
+      border-bottom: 3px solid #39b98a;
+      padding-bottom: 4px;
+      margin-bottom: 18px;
+      font-size: 1.4em;
+    }
+
+    .experience .item {
+      margin-bottom: 30px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #e1e8ed;
+      background: #fafbfc;
+      border-radius: 8px;
+      padding: 20px;
+    }
+
+    .experience .item .header {
+      display: block;
+      font-size: 0.85em;
+      color: #39b98a;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .experience .item h3 {
+      font-size: 1.15em;
+      color: #1f3a57;
+      margin-bottom: 12px;
+      font-weight: 600;
+    }
+
+    .experience .item .responsibilities {
+      margin-bottom: 16px;
+    }
+
+    .experience .item .responsibilities ul {
+      list-style: disc inside;
+      margin-left: 16px;
+      text-align: justify;
+      line-height: 1.5;
+    }
+
+    .experience .item .responsibilities li {
+      margin-bottom: 6px;
+      font-size: 0.95em;
+      color: #444;
+    }
+
+    .experience .item .competencies {
+      background: #fff;
+      border: 1px solid #e1e8ed;
+      border-radius: 6px;
+      padding: 12px 16px;
+      margin-top: 16px;
+    }
+
+    .experience .item .competencies h4 {
+      font-size: 0.9em;
+      color: #1f3a57;
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+
+    .experience .item .competencies .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .experience .item .competencies .skill-tag {
+      background: #39b98a;
+      color: white;
+      padding: 4px 8px;
+      border-radius: 12px;
+      font-size: 0.8em;
+      font-weight: 500;
+    }
+
+    .education,
+    .languages {
+      margin-top: 30px;
+    }
+
+    .education-item {
+      margin-bottom: 12px;
+      font-size: 0.95em;
+    }
+
+    .education-item span {
+      color: #777;
+      font-style: italic;
+    }
+
+    .languages p {
+      font-size: 0.95em;
+    }
+
+    ul.skills {
+      padding: 0 20px;
+    }
+
+    .section-content {
+      padding: 0 20px 12px;
+    }
+
+    .divider {
+      border: 0;
+      height: 1px;
+      background: #ccc;
+      margin: 10px 0;
+    }
+
+    @media print {
+      .container {
+        box-shadow: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <header>
+        <h1>Daniel Neitzel Vieira</h1>
+        <p>Desenvolvedor Front-End</p>
+      </header>
+      <div class="section">
+        <h2>Informações pessoais</h2>
+        <div class="section-content">
+          <a href="mailto:daniel_neitzel@hotmail.com">daniel_neitzel@hotmail.com</a>
+          <a href="tel:+5511930859311">(11) 93085-9311</a>
+          <a href="tel:+5511966355115">(11) 96635-5115</a>
+          <hr class="divider">
+          <a href="http://www.danielneitzel.com.br" target="_blank">danielneitzel.com.br</a>
+          <a href="https://github.com/DanielvNeitzel" target="_blank">github.com/DanielvNeitzel</a>
+          <a href="https://www.linkedin.com/in/danielneitzel" target="_blank">linkedin.com/in/danielneitzel</a>
+        </div>
+      </div>
+      <div class="section">
+        <h2>Competências Técnicas</h2>
+        <ul class="skills">
+          <li><strong>Frontend Frameworks</strong></li>
+          <li>Angular (v2 até v16)</li>
+          <li>React & React Native</li>
+          <li>Next.js</li>
+          <li>AngularJS</li>
+          <li>Ionic/Cordova</li>
+          <li><strong>Core Technologies</strong></li>
+          <li>TypeScript</li>
+          <li>JavaScript (ES6+)</li>
+          <li>HTML5 & CSS3</li>
+          <li>SASS/SCSS</li>
+          <li>RxJS</li>
+          <li><strong>Architecture & Patterns</strong></li>
+          <li>Micro Frontends (MFE)</li>
+          <li>Design Systems</li>
+          <li>PWA</li>
+          <li>Arquitetura MVC</li>
+          <li><strong>Tools & DevOps</strong></li>
+          <li>Git/GitLab</li>
+          <li>Jenkins</li>
+          <li>CI/CD</li>
+          <li>Jest/Karma</li>
+          <li>AWS</li>
+          <li><strong>Backend & Databases</strong></li>
+          <li>Node.js</li>
+          <li>PHP</li>
+          <li>MySQL</li>
+          <li>API REST</li>
+          <li><strong>Design & UX</strong></li>
+          <li>Figma</li>
+          <li>Bootstrap</li>
+          <li>UX/UI Design</li>
+          <li>Metodologias Ágeis</li>
+        </ul>
+      </div>
+    </aside>
+    <main class="main">
+      <section class="summary">
+        Sou desenvolvedor Front-End com sólida experiência no ecossistema Angular,
+        atuando em projetos de grande porte. Minha trajetória é marcada pela participação ativa em times
+        multidisciplinares, criação
+        de Design Systems, implementação de arquiteturas modernas como Micro Frontends
+        e desenvolvimento de soluções responsivas com foco em usabilidade, acessibilidade
+        e performance.
+        <br><br>
+        Tenho domínio em Angular (diversas versões), React, React Native, Next.js, Ionic,
+        além de forte experiência com JavaScript ES6, TypeScript, HTML5, CSS3, PHP,
+        Node.js, MySQL e Firebase. Atuo com integração de APIs REST, testes automatizados
+        Jest, CI/CD, prototipação em Figma e adoção de boas práticas de código.
+      </section>
+      <section class="experience">
+        <h2>Experiência Profissional</h2>
+
+        <!-- V8.TECH | CLIENTE B3 -->
+        <div class="item">
+          <div class="header"
+            style="background: #1f3a57; color: white; padding: 8px 20px; margin: -20px -20px 20px -20px; border-radius: 8px 8px 0 0;">
+            <h3 style="margin: 0; color: white; font-size: 1.2em;"> V8.TECH | CLIENTE B3 · nov/2024 – ago/2025 · 10
+              meses</h3>
+          </div>
+
+          <div style="padding-left: 15px; border-left: 3px solid #39b98a;">
+            <!-- <div class="header">Remoto</div> -->
+            <h3>Desenvolvedor Front-End Sênior</h3>
+            <div class="responsibilities">
+              <ul>
+                <li>Desenvolvimento Front-End com foco em arquitetura, criação de templates e implementação de soluções
+                  em projetos Angular.</li>
+                <li>Participação ativa no time de Design System da B3, incluindo prototipação de novos componentes em
+                  Angular e elaboração de documentações de apoio para outras equipes.</li>
+                <li>Responsável por integrações entre sistemas, aprimoramento da experiência do usuário (UX/UI) com base
+                  em design systems, uso de Figma e manutenção de padrões de código.</li>
+                <li>Atuação em ambiente ágil, com forte colaboração entre times multidisciplinares.</li>
+                <li>Apoio na formação de estagiários, orientando-os para uma atuação técnica mais efetiva e integrada ao
+                  time.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="competencies">
+            <h4>Competências Técnicas</h4>
+            <div class="skills-list">
+              <span class="skill-tag">Angular 16</span>
+              <span class="skill-tag">TypeScript</span>
+              <span class="skill-tag">RxJS</span>
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">Arquitetura MVC</span>
+              <span class="skill-tag">Bootstrap</span>
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">Jest</span>
+              <span class="skill-tag">CI/CD</span>
+              <span class="skill-tag">API REST</span>
+              <span class="skill-tag">AWS</span>
+              <span class="skill-tag">UX/UI Design</span>
+              <span class="skill-tag">Figma</span>
+              <span class="skill-tag">Design System</span>
+              <span class="skill-tag">Metodologias Ágeis</span>
+              <span class="skill-tag">Inteligência Artificial</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- TOKIO MARINE SEGURADORA -->
+        <div class="item">
+          <div class="header"
+            style="background: #1f3a57; color: white; padding: 8px 20px; margin: -20px -20px 20px -20px; border-radius: 8px 8px 0 0;">
+            <h3 style="margin: 0; color: white; font-size: 1.2em;"> TOKIO MARINE SEGURADORA · abr/2024 – nov/2024 · 8
+              meses</h3>
+          </div>
+
+          <div style="padding-left: 15px; border-left: 3px solid #39b98a;">
+            <!-- <div class="header">Híbrido</div> -->
+            <h3>Desenvolvedor Front-End</h3>
+            <div class="responsibilities">
+              <ul>
+                <li>Manutenção e criação de novas ferramentas dentro do sistema de abertura de chamados e sinistros em
+                  todos os segmentos da Tokio Marine.</li>
+                <li>Desenvolvimento do novo layout do sistema, melhorias em usabilidade e acessibilidade de formulários
+                  e processos internos.</li>
+                <li>Implementação de melhorias na experiência do usuário e otimização de performance.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="competencies">
+            <h4>Competências Técnicas</h4>
+            <div class="skills-list">
+              <span class="skill-tag">Angular 2</span>
+              <span class="skill-tag">Scrum</span>
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">RxJS</span>
+              <span class="skill-tag">Arquitetura MVC</span>
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">Bootstrap</span>
+              <span class="skill-tag">API REST</span>
+              <span class="skill-tag">.NET Framework</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">AWS</span>
+              <span class="skill-tag">UX/UI Design</span>
+              <span class="skill-tag">Metodologias Ágeis</span>
+              <span class="skill-tag">Inteligência Artificial</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- NAVA TECHNOLOGY -->
+        <div class="item">
+          <div class="header"
+            style="background: #1f3a57; color: white; padding: 8px 20px; margin: -20px -20px 20px -20px; border-radius: 8px 8px 0 0;">
+            <h3 style="margin: 0; color: white; font-size: 1.2em;">🏢 NAVA TECHNOLOGY · jan/2022 – jul/2023 · 1 ano 7
+              meses</h3>
+          </div>
+
+          <div style="margin-bottom: 25px; padding-left: 15px; border-left: 3px solid #39b98a;">
+            <!-- <div class="header">jan/2022 – jul/2023 · 1 ano 7 meses · Híbrido</div> -->
+            <h3>Analista Programador Sênior | Cliente Banco Santander</h3>
+            <div class="responsibilities">
+              <ul>
+                <li>Criação e manutenção de sistema de aquisição de pacotes de consignado para o Banco Santander.</li>
+                <li>Reestruturação de layouts antigos do banco para novo formato atualizado do framework interno.</li>
+                <li>Conversão de projetos para Micro Front-End (MFE) e refatoração de código interno dos projetos.</li>
+                <li>Implementação de testes unitários para taxa de cobertura e deploy em esteira para ambiente de
+                  desenvolvimento e produção.</li>
+                <li>Nova estrutura dentro dos projetos para melhor organização e manutenibilidade.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="competencies">
+            <h4>Competências Técnicas</h4>
+            <div class="skills-list">
+              <span class="skill-tag">Angular 9 e 12</span>
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">TypeScript</span>
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">GitLab</span>
+              <span class="skill-tag">Jenkins</span>
+              <span class="skill-tag">RxJS</span>
+              <span class="skill-tag">Jest</span>
+              <span class="skill-tag">API REST</span>
+              <span class="skill-tag">SASS</span>
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">AWS</span>
+              <span class="skill-tag">CI/CD</span>
+              <span class="skill-tag">Micro Frontend</span>
+              <span class="skill-tag">Arquitetura MVC</span>
+              <span class="skill-tag">Metodologias Ágeis</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- QINTESS -->
+        <div class="item">
+          <div class="header"
+            style="background: #1f3a57; color: white; padding: 8px 20px; margin: -20px -20px 20px -20px; border-radius: 8px 8px 0 0;">
+            <h3 style="margin: 0; color: white; font-size: 1.2em;">🏢 QINTESS · out/2018 – jan/2022 · 3 anos 7 meses
+            </h3>
+          </div>
+
+          <div style="margin-bottom: 25px; padding-left: 15px; border-left: 3px solid #39b98a;">
+            <!-- <div class="header">out/2021 – jan/2022 · 4 meses</div> -->
+            <h3>Desenvolvedor Front-End | Cliente Banco Santander</h3>
+            <div class="responsibilities">
+              <ul>
+                <li>Desenvolvimento e manutenção do sistema de abertura de conta digital (sistema de contratação de
+                  pacotes e planos, seleção de cartões, cadastramento de informações e tratamento para segurança digital
+                  e biometria).</li>
+                <li>Reestruturação de layouts antigos do banco para novo formato atualizado do framework interno.</li>
+                <li>Conversão de projetos para Micro Front-End (MFE) e refatoração de código interno dos projetos.</li>
+                <li>Testes unitários para taxa de cobertura e deploy em esteira para ambiente de desenvolvimento e
+                  produção.</li>
+              </ul>
+            </div>
+          </div>
+
+
+          <div style="margin-bottom: 25px; padding-left: 15px; border-left: 3px solid #39b98a;">
+            <!-- <div class="header">mai/2019 – dez/2019 · 8 meses</div> -->
+            <h3>Desenvolvedor Front-End | Cliente Banco Safra</h3>
+            <div class="responsibilities">
+              <ul>
+                <li>Conversão do sistema de boletos do banco de Visual Basic para nova tecnologia Angular.</li>
+                <li>Ajuste e manutenção nos sistemas de compra e venda de moeda estrangeira (câmbio).</li>
+                <li>Desenvolvimento de novas páginas para gerenciamento/consulta do sistema de compra e venda de moeda
+                  estrangeira e layout.</li>
+                <li>Consumo de APIs utilizando Angular 8 e AngularJS.</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div style="margin-bottom: 25px; padding-left: 15px; border-left: 3px solid #39b98a;">
+            <!-- <div class="header">dez/2019 – out/2021 · 1 ano 11 meses</div> -->
+            <h3>Desenvolvedor Front-End | Cliente Banco Votorantim</h3>
+            <div class="responsibilities">
+              <ul>
+                <li>Criação de formulários de cadastro e validações internas para o sistema de ISSQN (Imposto Sobre
+                  Serviço de Qualquer Natureza).</li>
+                <li>Integração com sistema de validação de Cadastro de Alíquotas, Empresas e DPI.</li>
+                <li>Criação do sistema de e-mail interno para envio de mensagens dentro do ambiente do ISS.</li>
+                <li>Testes unitários e integrados para taxa de cobertura e subido em esteira para ambiente de
+                  desenvolvimento.</li>
+                <li>Desenvolvimento de validações de formulários personalizados e elementos no framework do sistema ISS.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div style="padding-left: 15px; border-left: 3px solid #39b98a;">
+            <!-- <div class="header">out/2018 – mai/2019 · 8 meses</div> -->
+            <h3>Desenvolvedor Front-End | Cliente Banco Votorantim</h3>
+            <div class="responsibilities">
+              <ul>
+                <li>Reformulação do layout estático do sistema do Internet Banking para layout responsivo.</li>
+                <li>Criação de aplicativos Android e iOS em PWA (Progressive Web App).</li>
+                <li>Desenvolvimento do novo Internet Banking com nova tecnologia (Angular).</li>
+                <li>Desenvolvimento de novas estruturas dentro do Internet Banking e correções de layout.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="competencies">
+            <h4>Competências Técnicas Consolidadas</h4>
+            <div class="skills-list">
+              <span class="skill-tag">Angular 9 e 12</span>
+              <span class="skill-tag">AngularJS</span>
+              <span class="skill-tag">PWA</span>
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">TypeScript</span>
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">GitLab</span>
+              <span class="skill-tag">Jenkins</span>
+              <span class="skill-tag">RxJS</span>
+              <span class="skill-tag">API REST</span>
+              <span class="skill-tag">SASS</span>
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">AWS</span>
+              <span class="skill-tag">CI/CD</span>
+              <span class="skill-tag">Micro Frontend</span>
+              <span class="skill-tag">Arquitetura MVC</span>
+              <span class="skill-tag">Metodologias Ágeis</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- YPB MARKETING DIGITAL -->
+        <div class="item">
+          <div class="header"
+            style="background: #1f3a57; color: white; padding: 8px 20px; margin: -20px -20px 20px -20px; border-radius: 8px 8px 0 0;">
+            <h3 style="margin: 0; color: white; font-size: 1.2em;"> YPB MARKETING DIGITAL · abr/2018 – ago/2018 · 5
+              meses</h3>
+          </div>
+
+          <div style="padding-left: 15px; border-left: 3px solid #39b98a;">
+            <!-- <div class="header">Presencial</div> -->
+            <h3>Desenvolvedor Front-End</h3>
+            <div class="responsibilities">
+              <ul>
+                <li>Desenvolvimento e manutenção de páginas com as linguagens HTML5, CSS3, JavaScript, jQuery, PHP e
+                  MySQL.</li>
+                <li>Consumo de APIs para criação de aplicações web.</li>
+                <li>Desenvolvimento de aplicativos em IONIC/CORDOVA.</li>
+                <li>Reformulação do layout estático do sistema da empresa para layout responsivo.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="competencies">
+            <h4>Competências Técnicas</h4>
+            <div class="skills-list">
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">jQuery</span>
+              <span class="skill-tag">PHP</span>
+              <span class="skill-tag">MySQL</span>
+              <span class="skill-tag">IONIC</span>
+              <span class="skill-tag">CORDOVA</span>
+              <span class="skill-tag">APIs REST</span>
+              <span class="skill-tag">Aplicativos Móveis</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- AUDITTO TECNOLOGIA S/A -->
+        <div class="item">
+          <div class="header"
+            style="background: #1f3a57; color: white; padding: 8px 20px; margin: -20px -20px 20px -20px; border-radius: 8px 8px 0 0;">
+            <h3 style="margin: 0; color: white; font-size: 1.2em;"> AUDITTO TECNOLOGIA S/A · jan/2017 – nov/2017 · 11
+              meses</h3>
+          </div>
+
+          <div style="padding-left: 15px; border-left: 3px solid #39b98a;">
+            <!-- <div class="header">Presencial</div> -->
+            <h3>Front-End Developer</h3>
+            <div class="responsibilities">
+              <ul>
+                <li>Reformulação do layout estático do sistema da empresa para layout responsivo.</li>
+                <li>Desenvolvimento de layout do sistema de delivery de compras.</li>
+                <li>Criação de menu global personalizado para o sistema Bootstrap 3 modificado.</li>
+                <li>Criação de robôs de automatização de processos (Python e Ruby).</li>
+                <li>Criação e conversão de gráficos variáveis para Highcharts.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="competencies">
+            <h4>Competências Técnicas</h4>
+            <div class="skills-list">
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">Bootstrap</span>
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">Ruby</span>
+              <span class="skill-tag">Highcharts</span>
+              <span class="skill-tag">UX/UI</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- E/OU MRM -->
+        <div class="item">
+          <div class="header"
+            style="background: #1f3a57; color: white; padding: 8px 20px; margin: -20px -20px 20px -20px; border-radius: 8px 8px 0 0;">
+            <h3 style="margin: 0; color: white; font-size: 1.2em;"> E/OU MRM · mai/2015 – set/2016 · 1 ano 5 meses</h3>
+          </div>
+
+          <div style="padding-left: 15px; border-left: 3px solid #39b98a;">
+            <!-- <div class="header">Presencial</div> -->
+            <h3>Front-End Developer</h3>
+            <div class="responsibilities">
+              <ul>
+                <li>Desenvolvimento de páginas web em HTML5, CSS3, JavaScript e jQuery.</li>
+                <li>Trabalho com grandes marcas como LATAM, Santander, Pernod Ricard, Meio & Mensagem, Drogasil, Droga
+                  Raia, Even, Chevrolet e Bayer.</li>
+                <li>Criação de layouts responsivos de promoções e eventos, formulários de cadastro e criação de landing
+                  pages e flyers de propagandas.</li>
+                <li>Desenvolvimento de e-mail marketing responsivo e estático. Melhores práticas para produção em grande
+                  escala de e-mails de promoções e cupons de desconto.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="competencies">
+            <h4>Competências Técnicas</h4>
+            <div class="skills-list">
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">jQuery</span>
+              <span class="skill-tag">WordPress</span>
+              <span class="skill-tag">E-mail Marketing</span>
+              <span class="skill-tag">Landing Pages</span>
+              <span class="skill-tag">UX/UI</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- AGÊNCIA NOVI -->
+        <div class="item">
+          <div class="header"
+            style="background: #1f3a57; color: white; padding: 8px 20px; margin: -20px -20px 20px -20px; border-radius: 8px 8px 0 0;">
+            <h3 style="margin: 0; color: white; font-size: 1.2em;"> AGÊNCIA NOVI · nov/2014 – fev/2015 · 4 meses</h3>
+          </div>
+
+          <div style="padding-left: 15px; border-left: 3px solid #39b98a;">
+            <!-- <div class="header">Presencial</div> -->
+            <h3>Frontend Developer</h3>
+            <div class="responsibilities">
+              <ul>
+                <li>Desenvolvimento de páginas utilizando HTML5, CSS3, JavaScript e jQuery para construção de páginas
+                  responsivas e intuitivas.</li>
+                <li>Criação de layouts e formulários com conexão direta com banco de dados MySQL e utilizando PHP como
+                  processamento back-end.</li>
+                <li>Manutenção e melhorias em sites já desenvolvidos para manter as boas práticas e melhor funcionamento
+                  e adicionando novas funcionalidades caso necessário.</li>
+                <li>Atualização de APIs e versões de frameworks front-end e refatoração de códigos para melhor
+                  desempenho das páginas.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="competencies">
+            <h4>Competências Técnicas</h4>
+            <div class="skills-list">
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">jQuery</span>
+              <span class="skill-tag">PHP</span>
+              <span class="skill-tag">MySQL</span>
+              <span class="skill-tag">WordPress</span>
+              <span class="skill-tag">UX/UI</span>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="education">
+        <h2>Formação Acadêmica</h2>
+        <div class="education-item">
+          <span>(Jan/2013 a Jul/2015)</span>
+        </div>
+        <div class="education-item">Senac São Paulo – Tecnologia em Sistemas para Internet</div>
+      </section>
+      <section class="languages">
+        <h2>Idiomas</h2>
+        <p>Inglês – Avançado (CNA – 2 anos)</p>
+      </section>
+    </main>
+  </div>
+</body>
+
+</html>
